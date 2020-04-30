@@ -8,3 +8,9 @@ timestamp() {
     #return "$stamp"
     echo "$stamp"
 }
+
+help(){
+    echo -e "soapBash v ${VERSION} by ${AUTHOR}"
+    echo -e "\t-v|--verbose\tEnable verbose mode"
+    echo -e "\t-h|--help\tShow this help"
+}
