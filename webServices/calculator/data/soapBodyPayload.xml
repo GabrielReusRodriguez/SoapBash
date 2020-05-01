@@ -1,0 +1,4 @@
+<exam:add xmlns:exam="http://example.com/">
+    <intA>1</intA>
+    <intB>2</intB>
+</exam:add>
