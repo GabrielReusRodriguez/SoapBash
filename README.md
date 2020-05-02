@@ -33,4 +33,4 @@ Colaboradores del proyecto:
 * **Gabriel Reus Rodríguez** - [gabrielReusRodriguez](https://github.com/GabrielReusRodriguez)
 
 ## Licencia 📄
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia GPLv3 - mira el archivo [LICENSE.md](LICENSE.md) para detalles
