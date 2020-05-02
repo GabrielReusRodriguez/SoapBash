@@ -12,7 +12,7 @@ timestamp() {
 help(){
     #echo -e "soapBash v ${VERSION} by ${AUTHOR}"
     echo -ne "\tuso: "
-    echo -e "soapBash.sh -n | --name  <nombreWS> [-v | --version] [-h | --help]"
+    echo -e "soapBash.sh [-n|--name  <nombreWS>] [--curl-cfg <ruta>] --ws-dir <ruta> [--soap-version <version>] [-u|--user <credenciales>]  [-v|--version] [-h|--help]"
     echo -e "\t\t-n|--name\tNombre del WS"
     echo -e "\t\t--curl-cfg\tFichero con la configuración curl"
     echo -e "\t\t--ws-dir\tCarpeta que contiene las configuraciónes del WS, ficheros ws.cfg y <X>.cfg (configuración de curl)"
