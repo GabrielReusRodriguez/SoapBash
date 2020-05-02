@@ -97,9 +97,12 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 
 #Check que todos los parámetros obligatorios estén informados TODO.
 verbose "Configurando la llamada SOAP..."
-if test -z "${CURL_CFG}" | test ! -f ${CURL_CFG}
-then
+if [[ -z "${CURL_CFG}" ]]; then
     printERROR "No se ha encontrado configuración de CURL"
+    exit 1
+elif [[ ! -f ${CURL_CFG} ]]; then
+    #La variable existe por lo que compruebo que existe el fichero
+    printERROR "No se ha encontrado el fichero de configuración CURL"
     exit 1
 fi
 
