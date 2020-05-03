@@ -23,7 +23,7 @@ else
     exit 1
 fi
 
-echo "soapBash  v${VERSION} by ${AUTHOR}"
+echo "soapBash  v${CFG_VERSION} by ${CFG_AUTHOR}"
 
 #En caso que NO hayan parámetros mostramos la ayuda.
 if [ $# -eq 0 ];
@@ -49,7 +49,7 @@ do
     #Config del curl
         --curl-cfg)
         #Para pasarle la opción -K o --config <file> a curl
-            CURL_CFG=$2
+            CURL_FILE=$2
             shift
             shift
         ;;
@@ -97,10 +97,10 @@ set -- "${POSITIONAL[@]}" # restore positional parameters
 
 #Check que todos los parámetros obligatorios estén informados TODO.
 verbose "Configurando la llamada SOAP..."
-if [[ -z "${CURL_CFG}" ]]; then
+if [[ -z "${CURL_FILE}" ]]; then
     printERROR "No se ha encontrado configuración de CURL"
     exit 1
-elif [[ ! -f ${CURL_CFG} ]]; then
+elif [[ ! -f ${CURL_FILE} ]]; then
     #La variable existe por lo que compruebo que existe el fichero
     printERROR "No se ha encontrado el fichero de configuración CURL"
     exit 1
@@ -138,7 +138,7 @@ REQUEST=`cat  $SOAP_ENVELOPE_BEGIN $SOAP_HEADER_BEGIN $SOAP_HEADER_PAYLOAD $SOAP
 #echo $REQUEST
 verbose "Creando los nombres de fichero de log..."
 TIMESTAMP=$(timestamp)
-LOG_EXECUTION_FOLDER="${LOG_FOLDER}/${WS_NAME}_${TIMESTAMP}"
+LOG_EXECUTION_FOLDER="${CFG_LOG_FOLDER}/${WS_NAME}_${TIMESTAMP}"
 LOG_FILE_REQ_PAYLOAD="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}_Req_Payload.log"
 LOG_FILE_REQ_HEADERS="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}_Req_Headers.hdr"
 LOG_FILE_RESP_PAYLOAD="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}_Resp_Payload.log"
@@ -154,7 +154,7 @@ echo -n $REQUEST > $LOG_FILE_REQ_PAYLOAD
 
 #curl --config "${CURL_FOLDER}/${CURL_CFG}" --data-binary @"$LOG_FILE_REQ"  -o "${LOG_FILE_RESP}" #--basic --user gabriel:pass
 #PARAMS="--config ${CURL_FOLDER}/${CURL_CFG}"
-PARAMS="--config ${CURL_CFG}"
+PARAMS="--config ${CURL_FILE}"
 PARAMS="${PARAMS} --data-binary @${LOG_FILE_REQ_PAYLOAD}"
 PARAMS="${PARAMS} --stderr ${LOG_FILE_ERROR}"
 PARAMS="${PARAMS} --output ${LOG_FILE_RESP_PAYLOAD}"
@@ -169,4 +169,4 @@ fi
 verbose "PARAMETROS: $PARAMS"
 curl $PARAMS 
 
-echo "Fin del programa, revisa los resultados en la carpeta de Logs: ${LOG_FOLDER}"
+echo "Fin del programa, revisa los resultados en la carpeta de Logs: ${CFG_LOG_FOLDER}"
