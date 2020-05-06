@@ -1,0 +1,6 @@
+<ns1:test xmlns:ns1="http://test.soap.remotehs.ehcos.everis.com/">
+    <arg0>
+        <messageID>String 1</messageID>
+        <code>String 2</code>
+    </arg0>
+</ns1:test>
