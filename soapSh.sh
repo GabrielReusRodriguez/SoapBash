@@ -145,6 +145,8 @@ LOG_FILE_RESP_PAYLOAD="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}_Resp_Payl
 LOG_FILE_RESP_HEADERS="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}_Resp_Headers.hdr"
 LOG_FILE_ERROR="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}.err"
 LOG_FILE_TRACE="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}.trc"
+LOG_FILE_VALIDATION="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}.val"
+
 
 #Creo la carpeta de la petición.
 mkdir "$LOG_EXECUTION_FOLDER"
@@ -168,5 +170,19 @@ fi
 
 verbose "PARAMETROS: $PARAMS"
 curl $PARAMS 
+res=$?
+
+if test "$res" != "0"; then
+   echo "the curl command failed with: $res"
+   exit 1
+fi
+
+
+#En caso que se haya configurado la validación , se ejecuta
+verbose "Validacion de conexion: ${VALIDATOR} al fichero ${LOG_FILE_VALIDATION}"
+if [[ ! -z "${VALIDATOR}" ]]; then
+
+    . ${VALIDATOR}
+fi
 
 echo "Fin del programa, revisa los resultados en la carpeta de Logs: ${CFG_LOG_FOLDER}"
