@@ -1,0 +1,194 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            2a:19:f9:b0:08:00:04:be:b9
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = ES, OU = AC CAMERFIRMA, O = AC Camerfirma S.A., serialNumber = A82743287, L = Madrid (see current address at https://www.camerfirma.com/address), CN = Camerfirma AAPP II - 2014
+        Validity
+            Not Before: Nov 21 16:05:03 2018 GMT
+            Not After : Nov 20 16:05:03 2020 GMT
+        Subject: serialNumber = Q2826000H, L = MADRID, OU = sede electr\C3\B3nica, OU = SEDE DE LA AGENCIA ESTATAL DE ADMINISTRACI\C3\93N TRIBUTARIA, O = AGENCIA ESTATAL DE ADMINISTRACI\C3\93N TRIBUTARIA, CN = *.agenciatributaria.gob.es, C = ES
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:cf:d7:c2:c4:4c:70:dc:d7:da:e6:54:c3:65:a6:
+                    bc:e2:63:f0:e6:50:2a:bd:e7:46:0e:b5:a8:76:a5:
+                    3e:3b:70:f4:ee:c8:22:d3:7c:41:35:9e:b3:aa:b0:
+                    45:8c:bd:a3:ee:4a:ac:d9:43:7a:70:b7:fc:73:71:
+                    34:8a:35:71:18:af:93:cb:c2:e5:25:8c:65:23:ae:
+                    ce:90:cd:20:d9:6e:76:cc:f8:a3:ba:e1:fb:82:80:
+                    20:7e:60:b9:70:dd:42:39:ce:0a:21:9c:04:3d:f6:
+                    16:99:99:5a:7a:ef:cf:8d:7b:08:55:c6:e0:02:08:
+                    a7:d8:fe:02:a5:e4:d4:8c:81:db:25:5b:2a:ec:4c:
+                    88:59:65:40:04:55:eb:23:dd:19:d2:28:ab:a9:dd:
+                    d3:e3:3f:42:43:f9:e9:d2:3d:42:3c:19:62:61:b3:
+                    13:90:c0:8f:cd:ec:d2:c5:fa:cc:54:6e:dc:73:4f:
+                    02:7f:92:f7:1d:5c:e5:33:5c:8f:e1:48:61:99:63:
+                    12:9e:f1:46:95:d2:f7:83:2c:5f:54:ae:80:14:15:
+                    1d:3f:6a:6a:ab:75:6c:a3:0c:51:a8:58:33:bb:71:
+                    52:d0:ac:8d:99:97:51:b2:fb:f8:f7:f3:90:c7:cd:
+                    6b:30:6f:c4:7b:3a:86:52:da:7b:46:1d:72:ff:ad:
+                    b7:d1
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Subject Key Identifier: 
+                51:E2:47:EF:33:07:35:C4:FC:43:DE:9F:05:70:C4:BF:17:44:A3:4A
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : A4:B9:09:90:B4:18:58:14:87:BB:13:A2:CC:67:70:0A:
+                                3C:35:98:04:F9:1B:DF:B8:E3:77:CD:0E:C8:0D:DC:10
+                    Timestamp : Nov 21 16:05:04.590 2018 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:0F:A8:22:2B:7F:BD:4C:BE:DF:53:43:3A:
+                                EE:F6:69:DC:A9:83:1A:3B:B8:18:B0:E1:43:4D:C3:3C:
+                                26:96:36:08:02:21:00:E7:54:85:0E:6E:EE:DA:D4:B4:
+                                A2:D1:78:E0:65:83:0B:31:AE:E3:83:37:90:8E:D7:9F:
+                                17:BF:22:18:3C:F4:D0
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 6F:53:76:AC:31:F0:31:19:D8:99:00:A4:51:15:FF:77:
+                                15:1C:11:D9:02:C1:00:29:06:8D:B2:08:9A:37:D9:13
+                    Timestamp : Nov 21 16:05:06.185 2018 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:29:39:48:D7:EE:16:EC:F5:1D:16:9D:6D:
+                                71:F7:4A:82:6B:5F:CE:B0:EA:B2:BC:18:38:64:6D:D5:
+                                35:56:C9:48:02:20:59:93:99:76:DF:B4:CC:B0:E5:69:
+                                93:22:53:EA:C0:34:EC:37:0A:25:64:82:F1:4A:D2:D7:
+                                F5:87:4F:6E:0B:6F
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : EE:4B:BD:B7:75:CE:60:BA:E1:42:69:1F:AB:E1:9E:66:
+                                A3:0F:7E:5F:B0:72:D8:83:00:C4:7B:89:7A:A8:FD:CB
+                    Timestamp : Nov 21 16:05:06.297 2018 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:46:99:22:1F:29:99:33:BD:6E:1F:43:9E:
+                                E8:35:6B:A3:E6:A5:83:7F:C4:27:47:73:83:4E:FD:91:
+                                BF:D3:FA:17:02:20:2A:97:36:5D:52:AB:D1:69:89:C5:
+                                3D:E3:AC:5F:F2:8B:93:6F:83:50:FC:59:71:F5:FC:56:
+                                70:A2:EA:A8:27:56
+            Authority Information Access: 
+                CA Issuers - URI:http://www.camerfirma.com/certs/camerfirma_aappii-2014.crt
+                OCSP - URI:http://ocsp.camerfirma.com
+
+            X509v3 Authority Key Identifier: 
+                keyid:5D:A1:55:A4:DC:4A:AC:83:11:F9:AA:38:E5:F7:68:4A:FE:15:15:4C
+                DirName:/C=EU/L=Madrid (see current address at www.camerfirma.com/address)/serialNumber=A82743287/O=AC Camerfirma S.A./CN=Chambers of Commerce Root - 2008
+                serial:15:48:D0:54:B8:A8:42:BA
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.camerfirma.com/camerfirma_aappii-2014.crl
+
+                Full Name:
+                  URI:http://crl1.camerfirma.com/camerfirma_aappii-2014.crl
+
+            X509v3 Subject Alternative Name: 
+                DNS:*.agenciatributaria.gob.es
+            X509v3 Issuer Alternative Name: 
+                email:soporte@camerfirma.com
+            X509v3 Certificate Policies: 
+                Policy: 1.3.6.1.4.1.17326.1.3.2.2
+                  CPS: https://policy.camerfirma.com
+                  User Notice:
+                    Explicit Text: Certificado reconocido de sede electronica, nivel medio. Consulte las condiciones de uso en https://policy.camerfirma.com
+
+    Signature Algorithm: sha256WithRSAEncryption
+         49:6c:2f:fe:cd:75:7f:82:1a:58:4c:7e:7f:1e:5d:78:1d:9e:
+         96:70:0c:1b:a0:fd:0f:97:cc:f7:9a:62:75:dc:2e:6d:74:7d:
+         f3:a8:a8:2c:c1:d1:dc:2e:36:e6:29:25:cd:d8:c5:ba:25:30:
+         35:27:53:8f:fa:59:8a:f1:6a:5c:b6:b4:0a:d6:dc:da:f4:e7:
+         98:b7:3a:59:55:05:9f:bc:ff:a0:9f:2e:56:98:43:57:b0:10:
+         6d:31:d9:a2:b4:d0:00:5d:e9:49:c5:73:66:34:2a:13:f0:52:
+         6e:56:81:e4:73:e2:c9:0f:bc:e7:31:8f:4c:38:0d:45:e9:b4:
+         97:2b:a7:66:4d:33:27:a3:11:d7:0d:48:01:cc:e5:90:a5:e9:
+         79:38:16:76:37:99:9e:54:6e:14:ff:04:28:b9:62:20:eb:64:
+         4b:eb:72:12:26:c1:cc:a6:e4:31:bd:b2:f9:48:d1:b7:12:55:
+         80:86:35:7b:ff:19:d2:4c:c3:6e:c5:84:57:1a:68:2b:1e:e9:
+         e9:46:4a:60:93:d9:f4:d4:9c:af:59:a6:ad:9f:27:44:fa:de:
+         7c:75:d4:e1:2c:83:1e:6a:ce:cf:25:aa:68:16:0b:dc:ba:5d:
+         0d:46:db:74:51:bb:4f:71:ed:0e:b3:0c:25:07:42:14:a1:9a:
+         e4:20:33:79:3d:60:5a:61:2d:ff:a7:4b:ad:42:f0:84:de:0b:
+         de:f0:c9:6b:d9:f7:de:f2:77:b3:d2:25:fe:e6:59:0b:d0:f2:
+         2f:73:cd:23:c6:6f:69:7d:65:b6:78:af:7c:a5:b4:00:a7:25:
+         9b:67:ae:1b:c5:1d:62:2d:08:5e:0e:28:e1:f3:8c:ef:3d:fd:
+         ec:32:99:57:74:f4:d7:14:b9:f9:a2:47:97:aa:85:1c:23:60:
+         c2:02:13:ff:db:bb:1a:17:da:50:cb:71:6b:5b:e5:4e:12:d8:
+         3a:be:d9:83:86:51:f4:15:4e:13:a3:06:c6:2a:3a:f5:8e:f9:
+         cc:d2:0a:08:1b:65:95:08:c4:62:54:12:b5:56:eb:de:4a:1c:
+         72:7a:a2:8b:f2:ef:2c:59:ac:36:7e:73:96:0c:d7:91:84:1e:
+         80:f7:d1:0e:3b:9a:a2:3c:46:fb:e3:03:0e:bc:db:94:d2:a1:
+         61:60:a5:7e:bd:25:e1:f4:3e:8c:33:f6:25:1b:de:db:37:af:
+         e8:91:04:d3:61:98:04:d0:15:50:91:1e:f1:ba:b6:65:a9:0a:
+         f7:32:0c:64:e8:58:42:a7:d2:ef:d6:41:97:a7:d8:24:48:d4:
+         8c:e2:2f:3a:00:09:83:67:13:95:86:ca:70:e7:ec:36:dc:51:
+         ee:ac:f0:53:bb:25:aa:74
+-----BEGIN CERTIFICATE-----
+MIIKHTCCCAWgAwIBAgIJKhn5sAgABL65MA0GCSqGSIb3DQEBCwUAMIHHMQswCQYD
+VQQGEwJFUzEWMBQGA1UECwwNQUMgQ0FNRVJGSVJNQTEbMBkGA1UECgwSQUMgQ2Ft
+ZXJmaXJtYSBTLkEuMRIwEAYDVQQFEwlBODI3NDMyODcxSzBJBgNVBAcMQk1hZHJp
+ZCAoc2VlIGN1cnJlbnQgYWRkcmVzcyBhdCBodHRwczovL3d3dy5jYW1lcmZpcm1h
+LmNvbS9hZGRyZXNzKTEiMCAGA1UEAwwZQ2FtZXJmaXJtYSBBQVBQIElJIC0gMjAx
+NDAeFw0xODExMjExNjA1MDNaFw0yMDExMjAxNjA1MDNaMIHuMRIwEAYDVQQFEwlR
+MjgyNjAwMEgxDzANBgNVBAcMBk1BRFJJRDEaMBgGA1UECwwRc2VkZSBlbGVjdHLD
+s25pY2ExQTA/BgNVBAsMOFNFREUgREUgTEEgQUdFTkNJQSBFU1RBVEFMIERFIEFE
+TUlOSVNUUkFDScOTTiBUUklCVVRBUklBMTYwNAYDVQQKDC1BR0VOQ0lBIEVTVEFU
+QUwgREUgQURNSU5JU1RSQUNJw5NOIFRSSUJVVEFSSUExIzAhBgNVBAMMGiouYWdl
+bmNpYXRyaWJ1dGFyaWEuZ29iLmVzMQswCQYDVQQGEwJFUzCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAM/XwsRMcNzX2uZUw2WmvOJj8OZQKr3nRg61qHal
+Pjtw9O7IItN8QTWes6qwRYy9o+5KrNlDenC3/HNxNIo1cRivk8vC5SWMZSOuzpDN
+INludsz4o7rh+4KAIH5guXDdQjnOCiGcBD32FpmZWnrvz417CFXG4AIIp9j+AqXk
+1IyB2yVbKuxMiFllQARV6yPdGdIoq6nd0+M/QkP56dI9QjwZYmGzE5DAj83s0sX6
+zFRu3HNPAn+S9x1c5TNcj+FIYZljEp7xRpXS94MsX1SugBQVHT9qaqt1bKMMUahY
+M7txUtCsjZmXUbL7+PfzkMfNazBvxHs6hlLae0Ydcv+tt9ECAwEAAaOCBOEwggTd
+MAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgWgMBMGA1UdJQQMMAoGCCsGAQUF
+BwMBMB0GA1UdDgQWBBRR4kfvMwc1xPxD3p8FcMS/F0SjSjCCAXwGCisGAQQB1nkC
+BAIEggFsBIIBaAFmAHYApLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BAA
+AAFnNwSNzgAABAMARzBFAiAPqCIrf71Mvt9TQzru9mncqYMaO7gYsOFDTcM8JpY2
+CAIhAOdUhQ5u7trUtKLReOBlgwsxruODN5CO158XvyIYPPTQAHUAb1N2rDHwMRnY
+mQCkURX/dxUcEdkCwQApBo2yCJo32RMAAAFnNwSUCQAABAMARjBEAiApOUjX7hbs
+9R0WnW1x90qCa1/OsOqyvBg4ZG3VNVbJSAIgWZOZdt+0zLDlaZMiU+rANOw3CiVk
+gvFK0tf1h09uC28AdQDuS723dc5guuFCaR+r4Z5mow9+X7By2IMAxHuJeqj9ywAA
+AWc3BJR5AAAEAwBGMEQCIEaZIh8pmTO9bh9Dnug1a6PmpYN/xCdHc4NO/ZG/0/oX
+AiAqlzZdUqvRaYnFPeOsX/KLk2+DUPxZcfX8VnCi6qgnVjB+BggrBgEFBQcBAQRy
+MHAwRgYIKwYBBQUHMAKGOmh0dHA6Ly93d3cuY2FtZXJmaXJtYS5jb20vY2VydHMv
+Y2FtZXJmaXJtYV9hYXBwaWktMjAxNC5jcnQwJgYIKwYBBQUHMAGGGmh0dHA6Ly9v
+Y3NwLmNhbWVyZmlybWEuY29tMIHiBgNVHSMEgdowgdeAFF2hVaTcSqyDEfmqOOX3
+aEr+FRVMoYG0pIGxMIGuMQswCQYDVQQGEwJFVTFDMEEGA1UEBxM6TWFkcmlkIChz
+ZWUgY3VycmVudCBhZGRyZXNzIGF0IHd3dy5jYW1lcmZpcm1hLmNvbS9hZGRyZXNz
+KTESMBAGA1UEBRMJQTgyNzQzMjg3MRswGQYDVQQKExJBQyBDYW1lcmZpcm1hIFMu
+QS4xKTAnBgNVBAMTIENoYW1iZXJzIG9mIENvbW1lcmNlIFJvb3QgLSAyMDA4gggV
+SNBUuKhCujCBggYDVR0fBHsweTA6oDigNoY0aHR0cDovL2NybC5jYW1lcmZpcm1h
+LmNvbS9jYW1lcmZpcm1hX2FhcHBpaS0yMDE0LmNybDA7oDmgN4Y1aHR0cDovL2Ny
+bDEuY2FtZXJmaXJtYS5jb20vY2FtZXJmaXJtYV9hYXBwaWktMjAxNC5jcmwwJQYD
+VR0RBB4wHIIaKi5hZ2VuY2lhdHJpYnV0YXJpYS5nb2IuZXMwIQYDVR0SBBowGIEW
+c29wb3J0ZUBjYW1lcmZpcm1hLmNvbTCB1AYDVR0gBIHMMIHJMIHGBgwrBgEEAYGH
+LgEDAgIwgbUwKQYIKwYBBQUHAgEWHWh0dHBzOi8vcG9saWN5LmNhbWVyZmlybWEu
+Y29tMIGHBggrBgEFBQcCAjB7DHlDZXJ0aWZpY2FkbyByZWNvbm9jaWRvIGRlIHNl
+ZGUgZWxlY3Ryb25pY2EsIG5pdmVsIG1lZGlvLiBDb25zdWx0ZSBsYXMgY29uZGlj
+aW9uZXMgZGUgdXNvIGVuIGh0dHBzOi8vcG9saWN5LmNhbWVyZmlybWEuY29tMA0G
+CSqGSIb3DQEBCwUAA4ICAQBJbC/+zXV/ghpYTH5/Hl14HZ6WcAwboP0Pl8z3mmJ1
+3C5tdH3zqKgswdHcLjbmKSXN2MW6JTA1J1OP+lmK8WpctrQK1tza9OeYtzpZVQWf
+vP+gny5WmENXsBBtMdmitNAAXelJxXNmNCoT8FJuVoHkc+LJD7znMY9MOA1F6bSX
+K6dmTTMnoxHXDUgBzOWQpel5OBZ2N5meVG4U/wQouWIg62RL63ISJsHMpuQxvbL5
+SNG3ElWAhjV7/xnSTMNuxYRXGmgrHunpRkpgk9n01JyvWaatnydE+t58ddThLIMe
+as7PJapoFgvcul0NRtt0UbtPce0OswwlB0IUoZrkIDN5PWBaYS3/p0utQvCE3gve
+8Mlr2ffe8nez0iX+5lkL0PIvc80jxm9pfWW2eK98pbQApyWbZ64bxR1iLQheDijh
+84zvPf3sMplXdPTXFLn5okeXqoUcI2DCAhP/27saF9pQy3FrW+VOEtg6vtmDhlH0
+FU4TowbGKjr1jvnM0goIG2WVCMRiVBK1VuveShxyeqKL8u8sWaw2fnOWDNeRhB6A
+99EOO5qiPEb74wMOvNuU0qFhYKV+vSXh9D6MM/YlG97bN6/okQTTYZgE0BVQkR7x
+urZlqQr3Mgxk6FhCp9Lv1kGXp9gkSNSM4i86AAmDZxOVhspw5+w23FHurPBTuyWq
+dA==
+-----END CERTIFICATE-----
