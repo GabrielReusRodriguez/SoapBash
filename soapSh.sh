@@ -149,7 +149,8 @@ LOG_FILE_VALIDATION="${LOG_EXECUTION_FOLDER}/${WS_NAME}_${TIMESTAMP}.val"
 
 
 #Creo la carpeta de la petición.
-mkdir "$LOG_EXECUTION_FOLDER"
+mkdir "${LOG_EXECUTION_FOLDER}"
+mkdir "${LOG_EXECUTION_FOLDER}/tmp"
 
 #Hago la llamada
 echo -n $REQUEST > $LOG_FILE_REQ_PAYLOAD
@@ -162,11 +163,18 @@ PARAMS="${PARAMS} --stderr ${LOG_FILE_ERROR}"
 PARAMS="${PARAMS} --output ${LOG_FILE_RESP_PAYLOAD}"
 PARAMS="${PARAMS} --dump-header ${LOG_FILE_RESP_HEADERS}"
 PARAMS="${PARAMS} --trace-ascii ${LOG_FILE_TRACE}"
+
 #En caso que hayamos establecido usuario y contrasenya por parámetros, se lo indicamos en los parametros.
-if test ! -z "${SOAP_USER}"
-then
+if [[ ! -z "${SOAP_USER}" ]]; then
     PARAMS="${PARAMS} --basic --user ${SOAP_USER}"
+fi  
+
+#En caso que tengamos configurada la carpeta de certificados de confianza, añadimos la validación de certificados
+if [[ ! -z "${CA_FOLDER}" ]]; then
+    #PARAMS="${PARAMS} --capath ${CA_FOLDER}"
+    PARAMS="${PARAMS} --cacert ${CA} --capath ${CA_FOLDER}"
 fi
+#--cert-status
 
 verbose "PARAMETROS: $PARAMS"
 curl $PARAMS 
